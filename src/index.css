@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #F4F3EF;
+  color: #16232E;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+
+/* Focus terlihat */
+*:focus-visible {
+  outline: 2px solid #C8791A;
+  outline-offset: 2px;
+}
+
+button, [role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Min touch target */
+button.btn-touch, a.btn-touch {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Scrollbar halus */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D5CE;
+  border-radius: 4px;
+}
+
+/* Print: lembar QR */
+@media print {
+  body { background: white; }
+  .no-print { display: none !important; }
+  .print-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 8mm;
+    padding: 8mm;
+  }
+  .print-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 6mm;
+    text-align: center;
+  }
+  @page {
+    margin: 8mm;
+  }
+}

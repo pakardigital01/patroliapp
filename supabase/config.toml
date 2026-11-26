@@ -1,0 +1,13 @@
+project_id = "vbgpxaekmdhcrgnvzqgn"
+
+[functions.scan-qr]
+verify_jwt = true
+
+[functions.generate-qr]
+verify_jwt = true
+
+[functions.send-report]
+verify_jwt = true
+
+[functions.admin-actions]
+verify_jwt = true

@@ -1,0 +1,21 @@
+{
+  "projectId": "73070992",
+  "functions": {
+    "admin-actions": {
+      "hasChanged": false,
+      "hash": "ab0dfd87e5112091aebe844b3f311bd37c014f14b14d68c17a55b89845bcefd3"
+    },
+    "generate-qr": {
+      "hasChanged": false,
+      "hash": "584d0c30ae3aee22fb82445b2f1b54ab6e01e92f2efddf075ed1e0b955329dfd"
+    },
+    "scan-qr": {
+      "hasChanged": false,
+      "hash": "51389caf6941755a592e0f1ea46c16de26809ea1a5dc02f0ac920286f6d73c02"
+    },
+    "send-report": {
+      "hasChanged": false,
+      "hash": "98f4b006840c6851a15b4e86fd90568093182b84d9e4e9e9a4c78f50ab383013"
+    }
+  }
+}

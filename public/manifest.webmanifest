@@ -1,0 +1,19 @@
+{
+  "name": "Patroli — Sistem Patroli Keamanan",
+  "short_name": "Patroli",
+  "description": "Patroli petugas keamanan multi-cabang dengan bukti selfie ber-GPS dan verifikasi QR terenkripsi.",
+  "lang": "id",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F3EF",
+  "theme_color": "#16232E",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
